@@ -40,94 +40,10 @@
 # print('Last Digit is',n%10)
 
 
-# # ASSIGNMENT OPERATORS(=,+=,-=,*=,/=,%=,//==,**==)
-# a=10
-# print(a)
-#
-# a=10
-# a+=2
-# print(a)
-#
-# a=10
-# a-=2
-# print(a)
-#
-# a=10
-# a*=2
-# print(a)
-#
-# a=10
-# a/=2
-# print(a)
-#
-# a=10
-# a%=3
-# print(a)
-#
-# a=10
-# a//=3
-# print(a)
-#
-# a=10
-# a**=2
-# print(a)
 
 
-# # COMPARISON OPERATORS(==,<,>,<=,>=,!=) - Returns boolean value
-# a=10
-# b=23
-# print(a==b)
-# print(a<b)
-# print(a>b)
-# print(a<=b)
-# print(a>=b)
-# print(a!=b)
 
 
-# #LOGICAL OPERATORS(and,or,not) - Returns boolean value
-# a=10
-# b=23
-# c=33
-#
-# # #and :
-# print(a<b and b<c)
-# print(a<b and b>c)
-# print(a>b and b>c)
-#
-# #or :
-# print(a<b or b<c)
-# print(a<b or b>c)
-# print(a>b or b>c)
-#
-# #not :
-# print(not(a<b and b<c))
-# print(not(a<b and b>c))
-# print(not(a>b and b>c))
-#
-# print(not(a<b or b<c))
-# print(not(a<b or b>c))
-# print(not(a>b or b>c))
 
 
-# # MEMBERSHIP OPERATORS(in,not in)
-# str="hello"
-# print('h'in str)
-# print('h'not in str)
 
-
-# # IDENTITY OPERATORS(is,is not)
-# #string (immutable)
-# a='hello'
-# b='hello'
-# print(a is b)
-# print(a is not b)
-# print(id(a))
-# print(id(b))
-#
-# #list (mutable)
-# a=['a','b','c']
-# b=['a','b','c']
-# print(a is b)
-# print(a is not b)
-# print(id(a))
-# print(id(b))
