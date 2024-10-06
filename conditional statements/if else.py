@@ -11,11 +11,45 @@
 #     print('Not a Vowel')
 
 
+# # Q: find largest of two numbers input by the user
+# # A:
+# a=int(input('Enter first number:'))
+# b=int(input('Enter second number:'))
+# if(a>b):
+#     print(a,"is largest")
+# else:
+#     print(b,'is largest')
+
 # Q: find largest of two numbers input by the user
+# # A:
+# a=int(input('Enter first number:'))
+# b=int(input('Enter second number:'))
+# if(a<b):
+#     print(a,"is smallest")
+# else:
+#     print(b,'is smallest')
+
+# # Q: Voting eligibility checking (name,age)
+# # A:
+# n=input('Name:')
+# a=int(input('Age:'))
+# if(a>=18):
+#     print(n,'is eligible for voting')
+# else:
+#     print(n,'is not eligible for voting')
+
+# # Q: Check a number is odd or even
+# # A:
+# n=int(input('Enter a number:'))
+# if(n%2==0):
+#     print("Even")
+# else:
+#     print("Odd")
+
+# Q: Check a number input by the user is divisible by both 2 and 3
 # A:
-a=int(input('Enter first number:'))
-b=int(input('Enter second number:'))
-if(a>b):
-    print(a,"is largest")
+n=int(input('Enter a number:'))
+if(n%2==0 and n%3==0):
+    print(n,"is divisible by both 2 and 3")
 else:
-    print(b,'is largest')
+    print(n,"is not divisible by both 2 and 3")
