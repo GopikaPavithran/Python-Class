@@ -5,7 +5,6 @@
 # n=int(input("Enter a number:"))
 # if(n==10):
 #     print('Hello')
-from multiprocessing.process import ORIGINAL_DIR
 
 
 # # Q: Positive numbers only. print 'Positive'
