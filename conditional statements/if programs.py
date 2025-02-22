@@ -13,11 +13,13 @@
 # if(n>0):
 #     print('Positive')
 
+
 # # Q: numbers from 1 to 10. print 'Success'
 # # A:
 # n=int(input("Enter a number:"))
 # if(n>=1 and n<=10):
 #     print('Success')
+
 
 # # Q: a,e,i,o,u. print 'Vowels'
 # # A:

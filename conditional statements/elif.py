@@ -9,6 +9,9 @@
 # ..................
 # else:
 #     body of else
+from calendar import day_abbr
+from collections.abc import AsyncGenerator
+from modulefinder import Module
 
 # # Q: Check a number is +ve , -ve or Zero
 # # A:
@@ -19,6 +22,7 @@
 #     print("Zero")
 # else:
 #     print("Negative")
+
 
 # # Q: Accept the percentage from the user and display the grade according to the following criteria
 # # 81 - 100 : A+
@@ -46,6 +50,7 @@
 # else:
 #     print("Failed")
 
+
 # # Q: Find Largest of 3 numbers
 # # A:
 # a=int(input("Enter first number:"))
@@ -57,6 +62,7 @@
 #     print(b,'is largest')
 # else:
 #     print(c,'is largest')
+
 
 # # Q: Accept the age of 4 people and display the youngest one.
 # # A:
@@ -77,17 +83,72 @@
 # else:
 #     print(d,'is the Youngest')
 
-# Q: Accept the cost price of a bike and display the road tax to be paid according to the following criteria
-# Cost Price                    Tax
-# 100000                        15%
-# 50000 and <= 100000           10%
-# <=50000                       5%
 
+# # Q: Accept the cost price of a bike and display the road tax to be paid according to the following criteria
+# # Cost Price                    Tax
+# # 100000                        15%
+# # 50000 and <= 100000           10%
+# # <=50000                       5%
+# # A:
+# p=int(input("Enter the price of your bike:"))
+# if(p>100000):
+#     print("Tax=",15/100*p)
+# elif(100000>=p>50000):
+#     print("Tax=",10/100*p)
+# else:
+#     print("Tax=",5/100*p)
+
+
+# # Q: A company decided to give bonus to employee according to the following criteria.
+# # Time period of service          Bonus
+# # More than 10 years              10%
+# # >=6 and <=10                    8%
+# # less than 6 years               5%
+# # A:
+# t=int(input("Enter the time period of service:"))
+# s=int(input("Enter your salary:"))
+# if(t>10):
+#     print('Bonus=',10/100*s)
+# elif(6<=t<=10):
+#     print('Bonus=',8/100*s)
+# else:
+#     print('Bonus=',5/100*s)
+
+
+# # Q: Accept 2 numbers and mathematical operators and perform operations
+# # A:
+# a=int(input('Enter first number:'))
+# b=int(input('Enter second number:'))
+# o=input('Enter an operator:')
+# if(o=='+'):
+#     print(a+b)
+# elif(o=='-'):
+#     print(a-b)
+# elif(o=='*'):
+#     print(a*b)
+# elif(o=='/'):
+#     print(a/b)
+# else:
+#     print('Invalid Operator')
+
+
+# Q: Accept age,sex(M/F),number of days of work and display the wages accordingly
+# Age                 Sex    Wage/day
+# >=18 and <30        M      700
+#                     F      750
+# >=30 and <=40       M      800
+#                     F      850
 # A:
-p=int(input("Enter the price of your bike:"))
-if(p>100000):
-    print("Tax=",15/100*p)
-elif(100000>=p>50000):
-    print("Tax=",10/100*p)
+a=int(input('Age:'))
+s=input('Gender:')
+d=int(input('Number of days of work:'))
+if(18<=a<30 and s=='M'):
+    print('Wage=',d*700)
+elif(18<=a<30 and s=='F'):
+    print('Wage=',d*750)
+elif(30<=a<=40 and s=='M'):
+    print('Wage=',d*800)
+elif(30<=a<=40 and s=='F'):
+    print('Wage=',d*850)
 else:
-    print("Tax=",5/100*p)
+    print('Invalid')

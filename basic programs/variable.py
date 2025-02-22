@@ -25,8 +25,8 @@
 # d='Data Scientist'
 # s=100000
 # print('Company name:',cn,'\nEmployee name:',en,'\nEmployee Id:',ei,'\nDesignation:',d,'\nSalary:',s)
-#
-#
+
+
 # # Q: Student details - Student name, Roll no, Department
 # # A:
 n='Gopika'
