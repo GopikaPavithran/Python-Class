@@ -1,5 +1,15 @@
 # An if statement inside another if statement known as nested if
 
+# Syntax
+# if(condition1):
+#     if(condition2):
+#         body of if
+#     elif(condition3):
+#         body of elif
+# elif(condition4):
+#     body of elif
+
+
 # Q: Accept age,sex(M/F),number of days of work and display the wages accordingly
 # Age                 Sex    Wage/day
 # >=18 and <30        M      700
