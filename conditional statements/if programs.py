@@ -28,6 +28,7 @@
 #     print('Vowel')
 
                  # OR
+
 # n=input("Enter an alphabet:")
 # if(n in "aeiou"):
 #     print('Vowel')
