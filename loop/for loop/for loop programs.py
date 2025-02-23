@@ -21,3 +21,44 @@
 # for i in range(1,n+1):
 #     f*=i
 # print(n,'! =',f)
+
+
+# # Q: Find sum of digits of a number input by the user
+# # A:
+# n=int(input('Enter a number:'))
+# s=0
+# l=len(str(n))
+# for i in range(l):
+#     r=n%10
+#     s+=r
+#     n//=10
+# print('Sum of digits =',s)
+
+
+# # Q: Find Product of digits of a number input by the user
+# # A:
+# n=int(input('Enter a number:'))
+# p=1
+# l=len(str(n))
+# for i in range(l):
+#     r=n%10
+#     p*=r
+#     n//=10
+# print('Product of digits =',p)
+
+
+# Q: Print fibonacci series
+# A:
+n=int(input("Enter a limit:"))
+a=0
+b=1
+print(a)
+print(b)
+for i in range(n-2):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+
+
+
