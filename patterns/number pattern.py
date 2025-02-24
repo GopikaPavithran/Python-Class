@@ -71,3 +71,23 @@
 #     for j in range(5-i):
 #         print(j+1,end=' ')
 #     print()
+
+
+# # Q:   1
+# #    2   2
+# # 3    3    3
+# #    2    2
+# #      1
+# # A:
+# for i in range(3):
+#     for k in range(2-i):
+#         print(' ',end=' ')
+#     for j in range(i+1):
+#         print(i+1,end='   ')
+#     print()
+# for i in range(2):
+#     for k in range(i+1):
+#         print(' ',end=' ')
+#     for j in range(2-i):
+#         print(2-i,end='   ')
+#     print()
