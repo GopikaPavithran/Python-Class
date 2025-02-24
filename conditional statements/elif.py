@@ -62,7 +62,7 @@
 #     print(c,'is largest')
 
 
-# # Q: Accept the age of 4 people and display the youngest one.
+# # Q: Accept the age of 4 people and display the youngest one
 # # A:
 # a=input("Name:")
 # a1=int(input("Age:"))
@@ -97,7 +97,7 @@
 #     print("Tax=",5/100*p)
 
 
-# # Q: A company decided to give bonus to employee according to the following criteria.
+# # Q: A company decided to give bonus to employee according to the following criteria
 # # Time period of service          Bonus
 # # More than 10 years              10%
 # # >=6 and <=10                    8%
