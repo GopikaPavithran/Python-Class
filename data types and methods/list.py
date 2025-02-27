@@ -142,7 +142,7 @@
 # ac=0
 # dc=0
 # for i in li:
-#     if str(i).isalpha():
+#     if str(i).isalpha():           # converts to string. because isalpha(),isnumeric() etc.. are only applicable in string
 #         ac+=1
 #     elif str(i).isnumeric():
 #         dc+=1
