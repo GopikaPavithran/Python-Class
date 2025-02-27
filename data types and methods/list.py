@@ -180,8 +180,8 @@
 # n=int(input('Enter the number of elements to insert:'))
 # for i in range(n):
 #     e=input('Enter the element:')
-#     li.append(int(e))
-#     sq.append(int(e)**2)
+#     li.append(int(e))                     # Use int() when appending the number element into the list while using user input
+#     sq.append(int(e)**2)                  #  because input function always take element as string
 # print(li)
 # print(sq)
 
