@@ -141,10 +141,126 @@
 # print(s[::-1])        # reverse
 
 
-# Q: Check a string input by the user is palindrome or not
+# # Q: Check a string input by the user is palindrome or not
+# # A:
+# s=input('Enter a string:')
+# if s[::-1]==s:
+#     print('Palindrome')
+# else:
+#     print('Not Palindrome')
+
+
+# # Q: Find length of the string input by the user without using len()
+# # A:
+# a=input('Enter a string:')
+# c=0
+# for i in a:
+#     c+=1
+# print('Length of the string =',c)
+
+
+# # Q: Find length without including white space
+# # A:
+# a=input('Enter a string:')
+# c=0
+# for i in a:
+#     if i!=' ':
+#         c+=1
+# print('Length of the string =',c)
+
+
+# # Q: Count the total numer of digits and alphabets in an alphanumeric string input by the user
+# # A:
+# a=input('Enter a string:')
+# ac=0
+# dc=0
+# for i in a:
+#     if i.isalpha():
+#         ac+=1
+#     elif i.isnumeric():
+#         dc+=1
+# print('Count of alphabets=',ac)
+# print('Count of digits=',dc)
+
+
+# # Q: Count total number of vowels in a string input by the user
+# # A:
+# a=input('Enter a string:').lower()
+# vc=0
+# for i in a:
+#     if i in 'aeiou':
+#         vc+=1
+# print('Count of vowels=',vc)
+
+
+# # Q: Print the total count of upper case and lower case letters in a string input by the user
+# # A:
+# a=input('Enter a string:')
+# uc=0
+# lc=0
+# for i in a:
+#     if i.isupper():
+#         uc+=1
+#     elif i.islower():
+#         lc+=1
+# print('Count of upper case letters=',uc)
+# print('Count of lower case letters=',lc)
+
+
+# # Q: Remove duplicate elements from a string input ny the user
+# # A:
+# temp=''
+# a=input('Enter a string:')
+# for i in a:
+#     if i not in temp:
+#         temp+=i
+# print(temp)
+
+
+# # Q: Take 3 strings from the user and display the largest string
+# # A:
+#           # without sing len()
+#
+# a=input('Enter first string:')
+# b=input('Enter second string:')
+# c=input('Enter third string:')
+# ac=0
+# bc=0
+# cc=0
+# for i in a:
+#     ac+=1
+# for i in b:
+#     bc+=1
+# for i in c:
+#     cc+=1
+# if ac>bc and ac>cc:
+#     print('The largest string is ','"',a,'"')
+# elif bc>cc:
+#     print('The largest string is ', '"',b, '"')
+# else:
+#     print('The largest string is ', '"',c, '"')
+
+#              # using len()
+#
+# a=input('Enter first string:')
+# b=input('Enter second string:')
+# c=input('Enter third string:')
+# if len(a)>len(b) and len(a)>len(c):
+#     print('The largest string is ', '"', a, '"')
+# elif len(b)>len(c):
+#     print('The largest string is ', '"', b, '"')
+# else:
+#     print('The largest string is ', '"', c, '"')
+
+
+# Q: Find a string is palindrome or not
 # A:
-s=input('Enter a string:')
-if s[::-1]==s:
+a=input("Enter a string:")
+rev=''
+last=len(a)-1
+for i in range(last,-1,-1):
+    rev+=a[i]
+if rev==a:
     print('Palindrome')
 else:
     print('Not Palindrome')
