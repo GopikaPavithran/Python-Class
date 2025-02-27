@@ -141,7 +141,7 @@
 # print(s[::-1])        # reverse
 
 
-# # Q: Check a string input by the user is palindrome or not
+# # Q: Check a string input by the user is palindrome or not (using index)
 # # A:
 # s=input('Enter a string:')
 # if s[::-1]==s:
@@ -253,15 +253,16 @@
 #     print('The largest string is ', '"', c, '"')
 
 
-# Q: Find a string is palindrome or not
-# A:
-a=input("Enter a string:")
-rev=''
-last=len(a)-1
-for i in range(last,-1,-1):
-    rev+=a[i]
-if rev==a:
-    print('Palindrome')
-else:
-    print('Not Palindrome')
+# # Q: Find a string is palindrome or not (using element accessing)
+# # A:
+# a=input("Enter a string:")
+# rev=''
+# last=len(a)-1
+# for i in range(last,-1,-1):
+#     rev+=a[i]
+# if rev==a:
+#     print('Palindrome')
+# else:
+#     print('Not Palindrome')
+
 
