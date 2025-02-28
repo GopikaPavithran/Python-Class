@@ -38,7 +38,10 @@
 # # output - {3, 4, 5, 6}
 
 # # we can use set1 ^ set2 (operator) instead of set1.symmetric_difference(set2)
-
+# x={1,2,3,4}
+# y={1,2,5,6}
+# z=x^y
+# print(z)
 
 
 # # 6.symmetric_difference_update()   # it does not return a new set. It updates the existing set with the symmetric difference.
@@ -50,7 +53,10 @@
 # # output - {3, 4, 5, 6}
 #
 # # we can use set1 ^= set2 instead of set1.symmetric_difference_update(set2)
-
+# x={1,2,3,4}
+# y={1,2,5,6}
+# x^=y
+# print(x)
 
 
 # # 7.intersection()          # returns a new set containing only the elements that are common to both sets
@@ -62,7 +68,10 @@
 # # # output - {1, 2}
 #
 #  # set1 & set2 or set1.intersection(set2)
-
+# x={1,2,3,4}
+# y={1,2,5,6}
+# z=x&y
+# print(z)
 
 
 # # 8. intersection_update()       # updates the set to contain only the elements that are common to both sets.
@@ -74,3 +83,7 @@
 # # output - {1, 2}
 
 # # set1.intersection_update(set2) or set1 &= set2
+# x={1,2,3,4}
+# y={1,2,5,6}
+# x&=y
+# print(x)
