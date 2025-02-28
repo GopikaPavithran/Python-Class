@@ -102,3 +102,53 @@
 
 # for i,j in d.items():          # iterate both keys and values
 #     print(i,j)
+
+
+# # Q: Create an empty dictionary and pass key value pairs using user input. key should be a word and the value
+# # should be the length of the word.
+# # A:
+# di={}
+# n=int(input('Enter the number of elements to insert:'))
+# for i in range(n):
+#     k=input('Enter a word:')
+#     v=len(k)
+#     di.update({k: v})
+# print(di)
+
+
+# # Q: Create an empty dictionary and pass key value pairs using user input. key should be a word and the value
+# # should be the reverse
+# # A:
+# di={}
+# n=int(input('Enter the number of elements to insert:'))
+# for i in range(n):
+#     k=input('Enter a word:')
+#     v=k[::-1]
+#     di.update({k: v})
+# print(di)
+
+
+# # Q: Input a string from the user and create a dictionary with the count of each character in the string
+# # A:
+# di={}
+# a=input('Enter a string:')
+# for i in a:
+#     k=i
+#     v=a.count(i)
+#     di.update({k:v})
+# print(di)
+
+
+# # Q: Sort the dictionary {'b':3,'a':2,'c':4,'d':1,'e':4}
+# # A:
+# di={'b':3,'a':2,'c':4,'d':1,'e':4}
+# l=list(di)
+# l.sort()
+# new={}
+# for i in l:
+#     new.update({i:di.get(i)})
+# print(new)
+
+
+
+#

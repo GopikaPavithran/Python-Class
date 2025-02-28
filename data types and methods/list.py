@@ -1,6 +1,7 @@
 # li=['a','b',1,2,1.3]
 # print(type(li))
 
+
 # # Q: Find length of a list
 # # A:
 # print(len(li))
