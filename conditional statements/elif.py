@@ -84,7 +84,7 @@
 
 # # Q: Accept the cost price of a bike and display the road tax to be paid according to the following criteria
 # # Cost Price                    Tax
-# # 100000                        15%
+# # >100000                       15%
 # # 50000 and <= 100000           10%
 # # <=50000                       5%
 # # A:

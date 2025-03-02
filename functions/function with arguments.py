@@ -83,12 +83,11 @@
 
 # # Q: Define a function to solve quadratic equation (-b +or- root of b^2 - 4ac / 2a)
 # # A:
-# import math
 # def quadratic_solution(a,b,c):
 #     d = b ** 2 - 4 * a * c
 #     if d>0:
-#         print(((-1*b) + math.sqrt(d)) / 2*a)
-#         print(((-1*b) - math.sqrt(d)) / 2*a)
+#         print(((-1*b) + d**0.5) / 2*a)
+#         print(((-1*b) - d**0.5)/ 2*a)
 #     else:
 #         print('Not a real number')
 # quadratic_solution(1,5,4)
@@ -126,3 +125,122 @@
 # prime(7)
 # prime(9)
 # prime(1)
+
+
+# # Types of Arguments
+# # ------------------
+#
+# # 1.Positional Argument
+#
+# def sum(a,b,c):
+#     print(a+b+c)
+# sum(6,9,33)
+
+
+
+# # 2.Arbitrary Argument
+#
+# # Q: Find the sum of all numbers passing into a function using arbitrary arguments
+# # A:
+# def sum(*n):
+#     s=0
+#     for i in n:
+#         s+=i
+#     print('sum =',s)
+# sum(3,5,7)
+
+
+# # Q: Find product of numbers passing into a function
+# # A:
+# def product(*n):
+#     p=1
+#     for i in n:
+#         p*=i
+#     print(p)
+# product(0,4,6)
+# product(4,6,2,1)
+
+
+# # Q: Find the largest number from the numbers passing into a function
+# # A:
+# def largest(*n):
+#     l=n[0]
+#     for i in n:
+#         if i>l:
+#             l=i
+#     print(l)
+# largest(4,77,43,876,234)
+# largest(-3,-1,-44)
+
+
+# # # Q: Find the smallest number from the numbers passing into a function
+# # # A:
+# def smallest(*n):
+#     s=n[0]
+#     for i in n:
+#         if i<s:
+#             s=i
+#     print(s)
+# smallest(356,23,78,3,78)
+# smallest(-55,-2,-78,-3)
+
+
+# # 3.Default Argument
+#
+# def add(a,b,c=0):
+#     print(a+b+c)
+# add(3,5,6)
+# add(3,5)     # c=0 by default
+
+
+# # Q: Using default argument create a function to find the largest from 4 numbers
+# # A:
+# def largest(a,b,c=0,d=0):
+#     if a>b and a>c and a>d:
+#         print(a)
+#     elif b>c and b>d:
+#         print(b)
+#     elif c>d:
+#         print(c)
+#     else:
+#         print(d)
+# largest(56,22,68,44)
+# largest(33,87,4)
+# largest(56,9323)
+
+
+# # 4.Keyword Argument
+#
+# def sum(a,b,c):
+#     print(a+b+c)
+# sum(c=4,a=5,b=3)
+
+
+# # 5.Arbitrary Keyword Argument
+#
+# def name(**keyargs):
+#     print(keyargs)
+# name(firstname='a',middlename='b',lastname='c')
+
+
+# # Q: Pass key value pairs into function and iterate both keys and values separately
+# # A:
+# def person(**keyarg):
+#     for i,j in keyarg.items():
+#         print(i,j)
+# person(Name='Gopika',Age=22,Stream='Statistics',College='NASC')
+
+
+# # Q: Sort {b:2,c:3,a:1}
+# # A:
+# def sort(**keyarg):
+#     li=list(keyarg)
+#     li.sort()
+#     new={}
+#     for i in li:
+#         new.update({i:keyarg.get(i)})
+#     print(new)
+# sort(b=2,c=3,a=1)
+
+
+
