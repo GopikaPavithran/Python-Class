@@ -1,5 +1,5 @@
-# Syntax
-
+# # Syntax
+#
 # x=list(filter(lambda argument: expression,list_name))
 
 

@@ -1,4 +1,4 @@
-# syntax
+# # Syntax
 # if (condition1):
 #     body of if
 # elif (condition2):

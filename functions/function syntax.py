@@ -1,4 +1,4 @@
-# Syntax
+# # Syntax
 # def function():
 #     print('something')
 # function()

@@ -1,4 +1,4 @@
-# Syntax
+# # Syntax
 # while(condition):
 #     body of while loop
 

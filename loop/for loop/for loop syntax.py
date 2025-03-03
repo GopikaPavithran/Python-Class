@@ -1,6 +1,6 @@
-# Syntax
+# # Syntax
 # for i in range(n):
-#     body of for loop
+#      body of for loop
 
 
 # # Q: Take range from user and print 'Hai'
