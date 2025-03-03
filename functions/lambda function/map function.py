@@ -40,8 +40,21 @@
 # print(x)
 
 
-# Mapping using multiple sequences
-# --------------------------------
+# # Mapping using multiple sequences
+# # --------------------------------
+#
+# # Q: Add elements of two lists
+# # A:
+# li1=[1,2,3,4]
+# li2=[5,6,7,8]
+# x=list(map(lambda i,j:i+j,li1,li2))
+# print(x)
 
-# Q: Add elements of two lists
-# A:
+
+# # Q: Create a function using def and pass 2 lists into the function and using lambda map find the product
+# # of list and return a new list
+# # A:
+# def product(a,b):
+#     x=list(map(lambda i,j:i*j,a,b))
+#     return x
+# print(product([4,5,7,2],[2,8,4,3]))
