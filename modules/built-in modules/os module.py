@@ -32,3 +32,8 @@ import os
 
 # # To delete a file
 # os.remove(r'path.......')
+
+
+# # To remove a directory with files
+# import shutil
+# shutil.rmtree(r'path....')
