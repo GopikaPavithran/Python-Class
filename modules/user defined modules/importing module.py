@@ -4,7 +4,7 @@ print(my_module.add(4,7))
 
 print(my_module.cir_area(6))
 
-print(my_module.revese(69854))
+print(my_module.reverse(69854))
 
 print(my_module.product(2,7,1,4,2))
 

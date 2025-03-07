@@ -9,7 +9,7 @@ def cir_area(r):
     return math.pi*(r**2)
 
 # Reverse of number
-def revese(n):
+def reverse(n):
     s=str(n)
     return int(s[::-1])
 
