@@ -35,7 +35,7 @@
 # # Q: Create a class car with attributes company_name,model,fuel_type,color,transmission,price. for setting
 # # the value create setvalue() for display the value create display() and create 3 objects
 # # A:
-class car:
+class Car:
     def setvalue(self,company_name,model,fuel_type,color,transmission,price):
         self.cn=company_name
         self.m=model
@@ -50,14 +50,14 @@ class car:
         print('Color:',self.c)
         print('Transmission:',self.t)
         print('Price:',self.p)
-a=car()
+a=Car()
 a.setvalue('Toyota','Corolla','Petrol','White','Automatic','$25,000')
 a.display()
 
-b=car()
+b=Car()
 b.setvalue('Honda','Civic','Diesel','Black','Manual','$27,500')
 b.display()
 
-c=car()
+c=Car()
 c.setvalue('Tesla','Model 3','Electric','Red','Automatic','$40,000')
 c.display()

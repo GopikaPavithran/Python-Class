@@ -1,15 +1,15 @@
 # #Syntax
 #
-# class abc:
+# class Abc:
 #     def function(self):
 #         print('New Class')
-# obj=abc()          # reference variable or reference object
+# obj=Abc()          # reference variable or reference object
 # obj.function()
 
 
 # Q: Create a class math with functions addition,subtraction,multiplication,division,remainder
 # A:
-class math:
+class Math:
     def add(self,a,b):
         print(a+b)
     def sub(self,a,b):
@@ -21,7 +21,7 @@ class math:
     def rem(self,a,b):
         print(a%b)
 
-obj=math()
+obj=Math()
 obj.add(5,7)
 obj.sub(8,4)
 obj.div(120,5)
