@@ -56,7 +56,7 @@
 #         print('Employee:',self.en)
 #         print('ID:',self.id)
 #         print('Post',self.p)
-# obj=Employee('Anshya',3,'Luminar','Gopika',22,'Data Scientist')
+# obj=Employee('Anshya',3,'Luminar','Gopika',2243,'Data Scientist')
 # obj.display()
 
 
