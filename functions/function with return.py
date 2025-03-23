@@ -71,15 +71,34 @@
 # def quadratic(a,b,c):
 #     d= b**2 - 4*a*c
 #     if d>0:
-#         root1= (-b + d**0.5) / 2*a
-#         root2=(-b - d**0.5)/2*a
+#         root1= (-b + d**0.5) / (2*a)
+#         root2=(-b - d**0.5)/(2*a)
 #         return root1,root2
 #     elif d==0:
-#         return None
+#         return -b /(2*a)
 #     else:
 #         return 'Not real number'
 # print(quadratic(1,5,4))
 # print(quadratic(1,4,4))
 # print(quadratic(6,3,4))
+
+         # To solve imaginary number
+
+import cmath   # cmath module to handle complex roots when the discriminant is negative
+def solve_quadratic(a, b, c):
+    discriminant = b**2 - 4 * a * c
+    if discriminant > 0:
+        root1 = (-b + discriminant**0.5) / (2 * a)
+        root2 = (-b - discriminant**0.5) / (2 * a)
+        return root1, root2   # Two distinct real roots
+    elif discriminant == 0:
+        root = -b / (2 * a)
+        return root   # One real root (repeated)
+    else:
+        # Complex roots
+        root1 = (-b + cmath.sqrt(discriminant)) / (2 * a)
+        root2 = (-b - cmath.sqrt(discriminant)) / (2 * a)
+        return root1, root2    # Two complex roots.
+
 
 

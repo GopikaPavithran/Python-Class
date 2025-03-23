@@ -86,8 +86,10 @@
 # def quadratic_solution(a,b,c):
 #     d = b ** 2 - 4 * a * c
 #     if d>0:
-#         print(((-1*b) + d**0.5) / 2*a)
-#         print(((-1*b) - d**0.5)/ 2*a)
+#         print((-b + d**0.5) / (2*a))
+#         print((-b - d**0.5)/ (2*a))
+#     elif d==0:
+#         print(-b/(2*a))
 #     else:
 #         print('Not a real number')
 # quadratic_solution(1,5,4)
