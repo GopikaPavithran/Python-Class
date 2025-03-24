@@ -1,4 +1,5 @@
 # # Download XAMPP  - setting up a local server environment
+#                   # in XAMPP server Start Apache and MySQL. view MySQL Admin to see databases
 # # Install pymysql package (pip install pymysql)
 #
 import pymysql
