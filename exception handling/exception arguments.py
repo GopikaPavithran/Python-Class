@@ -19,7 +19,7 @@
 #     print(e)
 # except ValueError as e:
 #     print(e)
-from webbrowser import Error
+
 
 # # Q: Solve quadratic equation using exception handling.
 # # A:
